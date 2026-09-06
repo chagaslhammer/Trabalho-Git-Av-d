@@ -1,0 +1,69 @@
+Esse documento vai apresentar os principais pontos do projeto e suas respectivas fases.
+
+
+
+
+início: Definindo as operações.
+
+
+def soma(a, b):
+    return a + b
+
+def subtracao(a, b):
+    return a - b
+
+def multiplicacao(a, b):
+    return a * b
+
+def divisao(a, b):
+    if b == 0:
+        return "Erro: divisão por zero!"
+    return a / b
+
+
+Usamos def para definir as operações (soma, subtração, multiplicação, divisão) e como cada uma vai funcionar:
+obs: adicionamos também uma operação para caso seja feita uma divisão por 0, o app retorne como erro.
+
+segunda fase: Criando o menu de opções.
+
+def calculadora():
+    print("=== Calculadora em Python ===")
+    print("Escolha a operação:")
+    print("1 - Soma")
+    print("2 - Subtração")
+    print("3 - Multiplicação")
+    print("4 - Divisão")
+
+    opcao = input("Digite o número da operação: ")
+
+Nesta fase, criamos o meun da calculadora, permitindo que o usuário escolha qual operação deseja realizar.
+
+fase três: Recebendo os números.
+
+
+try:
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+except ValueError:
+    print("Erro: você precisa digitar números válidos.")
+    return
+
+
+Aqui adicionamos a entrada dos números que serão utilizados nas operações e uma validação para impedir que sejam inseridos valores inválidos.
+
+
+quarta fase: Executando Operação Escolhida
+
+if opcao == "1":
+    print("Resultado:", soma(num1, num2))
+elif opcao == "2":
+    print("Resultado:", subtracao(num1, num2))
+elif opcao == "3":
+    print("Resultado:", multiplicacao(num1, num2))
+elif opcao == "4":
+    print("Resultado:", divisao(num1, num2))
+else:
+    print("Opção inválida!")
+
+
+Nessa etapa verificamos a operação escoliha pelo usuário e executamos a operação correspondente, mostrando o resultado.
