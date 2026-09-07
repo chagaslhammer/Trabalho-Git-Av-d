@@ -1,4 +1,4 @@
-Esse projeto pode conter atualizações no código e talvez novas funcionalidades no futuro.
+
 
 
 Nesse projeto, vamos apresentar um trabalhinho simples, um aplicativo de calculadora feita em python, sem um propósito muito grande, mostraremos informações mais
