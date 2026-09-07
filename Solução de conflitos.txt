@@ -1,0 +1,1 @@
+Ao criar um conflito, fui editando e reorganizando as informações dos dois branches até que ficasse apresentável, assim, dei como conflito resolvido.
