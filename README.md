@@ -1,4 +1,4 @@
-Esse trabalho teve a colaboração de Caio Daniel/chagaslhammer e Gabriel Freitas/Gabrielvalis.
+Esse trabalho teve a colaboração de Caio Daniel/chagaslhammer e Gabriel Freitas/Gabrielvalis, com participação no desenvolvimento da calculadora.
 
 
 Nesse projeto, vamos apresentar um trabalhinho simples, um aplicativo de calculadora feita em python, sem um propósito muito grande, mostraremos informações mais
