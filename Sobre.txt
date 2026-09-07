@@ -6,3 +6,8 @@ Neste trabalho será feito um aplicativo simples de Calculadora feita em python,
 
 Participação de Gabriel: contribuição para a organização e desenvolvimento do projeto.
 
+Solução de problemas:
+
+Ao criar um conflito entre 2 branches (feature/Caio e feature/conflito-gabriel), resolvi fazendo pequenas mudanças no arquivo 'README.md" até que os as informações ficassem formidavelmente aceitáveis para a descrição, assim, dei como conflito resolvido e fiz o commit do merge.
+
+
